@@ -1,4 +1,4 @@
-const CACHE='controle-diario-v4';
+const CACHE='controle-diario-v5';
 self.addEventListener('install',event=>{
   event.waitUntil((async()=>{
     const cache=await caches.open(CACHE);

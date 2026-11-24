@@ -1,4 +1,4 @@
-const CACHE='controle-diario-v6';
+const CACHE='controle-diario-v7';
 const ASSETS=['./','./index.html','./emprestimos.html','./manifest.json'];
 self.addEventListener('install',event=>{
   event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(ASSETS);await self.skipWaiting()})());
